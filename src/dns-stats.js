@@ -37,7 +37,6 @@ function getDNSStats(domains) {
         return `${prev}.${cur}`;
       }, '')
   );
-  console.log(temp);
   return temp;
   // remove line with error and write your code here
 }
